@@ -1,0 +1,248 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --navyblue: #2e2f42;
+  --white: #ffffff;
+  --iris: #4d5ae5;
+  --slate: #434455;
+  --ocean: #404bbf;
+  --cloud: #f4f4fd;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--slate);
+  text-decoration: none;
+  background-color: var(--white);
+}
+
+/* HTML page 1 */
+
+.list .link {
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--iris);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo-item {
+  color: var(--navyblue);
+}
+
+.list {
+  list-style: none;
+}
+
+.list .link {
+  color: var(--navyblue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.list .link:hover,
+.list .link:focus {
+  color: var(--ocean);
+}
+
+.list .link:active {
+  color: var(--navyblue);
+}
+
+.address {
+  font-style: normal;
+}
+
+.address .list .link {
+  color: var(--slate);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.address .list .link:hover,
+.address .list .link:focus {
+  color: var(--ocean);
+}
+
+.address .list .link:active {
+  color: var(--navyblue);
+}
+
+/* Main */
+
+.section-one {
+  background-color: var(--navyblue);
+}
+
+.page-title {
+  color: var(--white);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.button {
+  background-color: var(--iris);
+  font-family: 'Roboto', sans-serif;
+  color: var(--white);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--ocean);
+}
+
+.section-title {
+  color: var(--navyblue);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.section-back {
+  background-color: var(--white);
+}
+.section-back .list .title {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.section-back .list .text {
+  color: var(--slate);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.section-back .list {
+  list-style: none;
+}
+
+.section-four .list .name {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.section-four .list .position {
+  color: var(--slate);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.section-four {
+  background-color: var(--cloud);
+}
+
+.section-four .list .list-item {
+  list-style: none;
+  background-color: var(--white);
+}
+
+/* Footer */
+.footer-text {
+  color: var(--cloud);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.background {
+  background-color: var(--navyblue);
+}
+
+.background .logo-item {
+  color: var(--cloud);
+  text-decoration: none;
+}
+
+/* HTML page 2 */
+.main-info {
+  background-color: var(--white);
+}
+
+.main-info .list {
+  list-style: none;
+}
+.main-info .list .button {
+  color: var(--iris);
+  background-color: var(--cloud);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.main-info .list .button:hover,
+.main-info .list .button:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+.main-info .list .link {
+  text-decoration: none;
+}
+
+.main-info .title {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.main-info .text {
+  color: var(--slate);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
