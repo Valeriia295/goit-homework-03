@@ -17,6 +17,7 @@ body {
 
 /* Header */
 .page-header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
@@ -43,11 +44,11 @@ body {
   color: var(--navyblue);
 }
 
-.page-nav .list {
+.nav-list {
   list-style: none;
 }
 
-.list .item {
+.nav-list .item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -55,8 +56,8 @@ body {
   color: var(--navyblue);
 }
 
-.list .item:hover,
-.list .item:focus {
+.nav-list .item:hover,
+.nav-list .item:focus {
   color: var(--ocean);
 }
 
@@ -64,19 +65,19 @@ body {
   font-style: normal;
 }
 
-.header-address .list {
+.address-list {
   list-style: none;
 }
 
-.list .mail-tel {
+.address-list .mail-tel {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
 }
 
-.list .mail-tel:hover,
-.list .mail-tel:focus {
+.address-list .mail-tel:hover,
+.address-list .mail-tel:focus {
   color: var(--ocean);
 }
 
@@ -86,7 +87,10 @@ body {
   background-color: var(--navyblue);
 }
 
-.container .primary-title {
+.container {
+}
+
+.primary-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -121,7 +125,7 @@ body {
 .second-title {
 }
 
-.list {
+.second-list {
   list-style: none;
 }
 
@@ -157,7 +161,7 @@ body {
   color: var(--navyblue);
 }
 
-.list {
+.third-list {
   list-style: none;
 }
 
@@ -179,11 +183,11 @@ body {
   color: var(--navyblue);
 }
 
-.list {
+.fourth-list {
   list-style: none;
 }
 
-.fourth-list {
+.fourth-item {
   background-color: var(--white);
 }
 
@@ -208,7 +212,10 @@ body {
   background-color: var(--navyblue);
 }
 
-.container .logo {
+.container {
+}
+
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -243,7 +250,7 @@ body {
 .portfolio-title {
 }
 
-.list {
+.portfolio-list {
   list-style: none;
 }
 
@@ -263,6 +270,10 @@ body {
   background-color: var(--ocean);
 }
 
+.image-list {
+  list-style: none;
+}
+
 .link {
   text-decoration: none;
 }
@@ -280,4 +291,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+}
+
+img {
+  display: block;
 }
