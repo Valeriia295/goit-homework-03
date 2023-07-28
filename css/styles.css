@@ -15,297 +15,269 @@ body {
   background-color: var(--white);
 }
 
-/* HTML page 1 */
-
+/* Header */
 .page-header {
 }
 
-.list .link {
-  text-decoration: none;
+.container {
+}
+
+.page-nav {
 }
 
 .logo {
-  color: var(--iris);
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-style: normal;
   font-weight: 800;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--iris);
+}
+
+.link {
   text-decoration: none;
-  display: inline-flex;
-  padding-top: 24px;
-  align-items: center;
-  flex-shrink: 0;
 }
 
 .logo-item {
   color: var(--navyblue);
 }
 
-.page-header .list {
+.page-nav .list {
   list-style: none;
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 76px;
 }
 
-.page-header .list .link {
-  color: var(--navyblue);
-  font-size: 16px;
-  font-style: normal;
+.list .item {
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-
-.page-header .list .link:hover,
-.page-header .list .link:focus {
-  color: var(--ocean);
-}
-
-.page-header .list .link:active {
-  color: var(--navyblue);
-}
-
-.address {
-  font-style: normal;
-}
-
-.address .list {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.address .list .link {
-  color: var(--slate);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
-}
-
-.address .list .link:hover,
-.address .list .link:focus {
-  color: var(--ocean);
-}
-
-.address .list .link:active {
   color: var(--navyblue);
 }
 
-/* Main */
-
-.section-one {
-  background-color: var(--navyblue);
-  flex-shrink: 0;
+.list .item:hover,
+.list .item:focus {
+  color: var(--ocean);
 }
 
-.page-title {
-  color: var(--white);
-  font-size: 56px;
+.header-address {
   font-style: normal;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  width: 496px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 188px;
-  padding-bottom: 48px;
 }
 
-.button {
+.header-address .list {
+  list-style: none;
+}
+
+.list .mail-tel {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.list .mail-tel:hover,
+.list .mail-tel:focus {
+  color: var(--ocean);
+}
+
+/* Section 1 */
+
+.primary-section {
+  background-color: var(--navyblue);
+}
+
+.container .primary-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.primary-button {
   background-color: var(--iris);
   font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--white);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  padding: 16px 32px;
-  margin-bottom: 188px;
-  display: inline-flex;
-  align-items: flex-start;
-}
-
-.button:hover,
-.button:focus {
-  background-color: var(--ocean);
-}
-
-.section-title {
-  color: var(--navyblue);
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-}
-
-.section-back {
-  background-color: var(--white);
-}
-.section-back .list .title {
-  color: var(--navyblue);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.section-back .list .text {
-  color: var(--slate);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.section-back .list {
-  list-style: none;
-  display: flex;
-  gap: 24px;
-  margin-top: 120px;
-  margin-bottom: 120px;
-}
-
-.section-back .list-item {
-  display: inline-flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
-
-.section-four .list .name {
-  color: var(--navyblue);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.section-four .list .position {
-  color: var(--slate);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.section-four {
-  background-color: var(--cloud);
-}
-
-.section-four .list .list-item {
-  list-style: none;
-  background-color: var(--white);
-}
-
-/* Footer */
-.footer-text {
-  color: var(--cloud);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.background {
-  background-color: var(--navyblue);
-}
-
-.background .logo-item {
-  color: var(--cloud);
-  text-decoration: none;
-}
-
-/* HTML page 2 */
-.main-info {
-  background-color: var(--white);
-}
-
-.main-info .list {
-  list-style: none;
-}
-.main-info .list .button {
-  color: var(--iris);
-  background-color: var(--cloud);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
-.main-info .list .button:hover,
-.main-info .list .button:focus {
-  color: var(--white);
+.primary-button:hover,
+.primary-button:focus {
   background-color: var(--ocean);
 }
 
-.main-info .list .link {
-  text-decoration: none;
-}
+/* Section 2 */
 
-.main-info .title {
-  color: var(--navyblue);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-
-.main-info .text {
-  color: var(--slate);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
+.second-section {
 }
 
 .container {
-  max-width: 1158px;
-  padding-left: 156px;
-  padding-right: 156px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+.second-title {
+}
+
+.list {
+  list-style: none;
+}
+
+.list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+
+.list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/* Section 3 */
+
+.third-section {
+}
+
+.container {
+}
+
+.third-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navyblue);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Section 4 */
+
+.fourth-section {
+  background-color: var(--cloud);
+}
+
+.container {
+}
+
+.fourth-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navyblue);
+}
+
+.list {
+  list-style: none;
+}
+
+.fourth-list {
+  background-color: var(--white);
+}
+
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+
+.position {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/* Footer */
+
+.page-footer {
+  background-color: var(--navyblue);
+}
+
+.container .logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.page-footer .logo-item {
+  color: var(--cloud);
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+}
+
+/* Portfolio */
+
+.portfolio-section {
+}
+
+.container {
+}
+
+.portfolio-title {
+}
+
+.list {
+  list-style: none;
+}
+
+.portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
+  cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.portfolio-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+
+.portfolio-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
