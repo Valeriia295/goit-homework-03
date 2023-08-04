@@ -165,7 +165,7 @@ body {
   list-style: none;
   display: flex;
   gap: 24px;
-  margin-bottom: 8px;
+  list-style-type: none;
 }
 
 .list-title {
@@ -174,6 +174,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navyblue);
+  margin-bottom: 8px;
 }
 
 .list-text {
@@ -203,6 +204,7 @@ body {
   list-style: none;
   display: flex;
   gap: 24px;
+  list-style-type: none;
 }
 
 .third-item {
@@ -230,6 +232,7 @@ body {
   list-style: none;
   display: flex;
   gap: 24px;
+  list-style-type: none;
 }
 
 .fourth-item {
