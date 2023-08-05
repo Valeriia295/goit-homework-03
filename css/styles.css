@@ -15,6 +15,11 @@ body {
   background-color: var(--white);
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 /* Header */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -44,6 +49,8 @@ body {
   text-transform: uppercase;
   color: var(--iris);
   margin-right: 76px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .link {
@@ -58,6 +65,10 @@ body {
   list-style: none;
   display: flex;
   gap: 40px;
+  list-style-type: none;
+  margin-right: 292px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .nav-list .item {
@@ -66,7 +77,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navyblue);
-  padding: 24px 0;
 }
 
 .nav-list .item:hover,
@@ -82,7 +92,7 @@ body {
   list-style: none;
   display: flex;
   gap: 40px;
-  padding-left: 292px;
+  margin: 24px 0;
 }
 
 .address-list .mail-tel {
@@ -112,7 +122,7 @@ body {
   color: var(--white);
   max-width: 496px;
   margin: 0 auto;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .primary-button {
@@ -188,10 +198,6 @@ body {
 
 /* Section 3 */
 
-.third-section {
-  padding-bottom: 120px;
-}
-
 .third-title {
   font-size: 36px;
   line-height: 1.11;
@@ -209,6 +215,7 @@ body {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  padding-bottom: 120px;
 }
 
 .third-item {
@@ -380,6 +387,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+  margin-bottom: 17px;
 }
 
 img {
