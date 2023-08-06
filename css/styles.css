@@ -27,6 +27,8 @@ body {
 
 .navigation {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .container {
@@ -64,7 +66,6 @@ body {
   display: flex;
   gap: 40px;
   list-style-type: none;
-  margin-right: 292px;
 }
 
 .nav-list .item {
@@ -73,7 +74,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navyblue);
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-right: 0;
+  padding-bottom: 24px;
+  padding-left: 0;
+  display: block;
 }
 
 .nav-list .item:hover,
@@ -89,7 +94,6 @@ body {
   list-style: none;
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .address-list .mail-tel {
